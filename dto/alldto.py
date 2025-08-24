@@ -16,7 +16,7 @@ class CommitChange(BaseModel):
     changes: List[RecordChange]
 
 
-class CommitHead(BaseModel):
+class CommitRead(BaseModel):
     id: UUID
     parent_commit: Optional[UUID]
     message: str
